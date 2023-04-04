@@ -1,0 +1,80 @@
+Problem 1 [20pts] Draw u = [4,1], w = [−2,2] and (u + w), (u − w) in the plane.
+
+
+
+Problem 2 [20pts] Find vectors u and w such that u + w = [4, 5, 6] and u − w = [2, 5, 8].
+
+u1 + w1 = 4, u1 - w1 = 2, let u1 = 3, 3+w1= 4, 3-w1=2, w1=4-3= 1 =3-2
+
+u2 + w2 = 5, u2 - w2 = 5, let u2 = 5, 5+w2= 5, 5-w2=5, w2=5-5= 0 =5-5 
+
+u3 + w3 = 6, u3 - w3 = 8, let u3 = 7, 7+w3= 6, 7-w3=8, w3=6-7= -1 =7-8
+
+u=[3,5,7]
+w=[1,0,-1]
+
+Problem 3 [20pts] Find two vectors u and w which are perpendicular to  [1, 0, 1] and to each other.
+
+let z = [1, 0, 1]
+let u*z = 0
+let w = u × z
+let w*z = 0
+let u*w = 0
+
+u*z = u1*z1 + u2*z2 + u3*z3 = 0
+	u1*1 + u2*0 + u3*1 = 0
+let u1 = 0, u2 = 1, u3 = 0
+0*1 + 1*0 + 0*1 = 0+0+0 = 0
+u = [0, 1, 0]
+
+w = u × z = [u2*z3 - u3*z2, u3*z1 - u1*z3, u1*z2 - u2*z1]
+	= [1*1-0*0, 0*1-0*1, 0*0-1*1]
+w = [1, 0, -1]
+
+w*z = w1*z1 + w2*z2 + w3*z3 = 0
+	1*1 + 0*0 + (-1)*1 = 0 GOOD
+
+u*w = u1*w1 + u2*w2 + u3*w3 = 0
+	0*1 + 1*0 + 0*(-1) = 0 GOOD
+
+u = [0, 1, 0] and w = [1, 0, -1]
+
+
+  
+
+Problem 4 [20pts] How long is the vector u = [1, 1, 1, 1, 1]?
+
+|u| = √(1^2+1^2+1^2+1^2+1^2) = √5
+
+|u| = √5
+
+Problem 5 [20 pts] Consider the following system of equations:    
+2x + 3y + z = 8
+4x + 7y + 5z = 20
+−2y + 2z = 0 
+Apply Gauss Elimination in order to solve it.
+
+2x + 3y + z = 8
+4x + 7y + 5z = 20
+−2y + 2z = 0
+
+-> multiply first by -2 and add to second ->
+
+2x + 3y + z = 8					  -> 2x + 3y + z = 8
+(4x-4x + 7y-6y + 5z-2z = 20-16)  	  ->       y + 3z = 4
+-2y + 2z = 0 -> divide by 2 to simplify ->      -y + z = 0
+
+-> add second to third ->
+
+2x + 3y + z = 8       -> 2x + 3y + z = 8
+      y + 3z = 4      -> y + 3z = 4
+  (-y+y + z+3z = 0+4) -> 4z = 4 
+
+4z = 4 -> z = 1
+y + 3(1) = 4 -> y = 1
+2x + 3(1) + (1) = 8 -> 2x + 4 = 8 -> 2x = 4 -> x = 2
+
+x = 2, y = 1, and z = 1
+
+
+
